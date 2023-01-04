@@ -4,32 +4,40 @@ function App() {
     return (
         <div>
             <header>
-                <div>Container for header
-                    <div>Logo</div>
-                    <div>Navigation
-                        <ul>
-                            <li>1 menu item</li>
-                            <li>2 menu item</li>
-                            <li>3 menu item</li>
-                            <li>4 menu item</li>
-                        </ul>
-                    </div>
-                    <div>Burger</div>
+                <div>Logo</div>
+                <div>Navigation
+                    <ul>
+                        <li><a href="#">menu item 1</a></li>
+                    </ul>
                 </div>
+                <div>Burger menu</div>
             </header>
             <main>
-                <section>Medical massage</section>
-                <section>Thai massage</section>
-                <section>Relax massage</section>
-                <section>Stone therapy</section>
+                <article>
+                    <h1>The Benefits of Massages</h1>
+                    <p>Some basic info</p>
+                </article>
+                <h2>Major types of massage and their benefits</h2>
+                <section>
+                    <h2>Medical massage</h2>
+                    <p>Explanation</p>
+                    <img alt="Massage type picture"></img>
+                </section>
+                <aside>
+                    <h4>Section name</h4>
+                    Dropdown menu of all massage types presented on the page you can click on.
+                    Show the current section you are in.
+                    <ul>
+                        <li><a>1. Massage type</a></li>
+                    </ul>
+                </aside>
             </main>
             <footer>
                 <div>Footer name or something</div>
-                <div>Social and contacts
+                <div>
+                    <h3>Social and contacts</h3>
                     <ul>
-                        <li>Social icon 1</li>
-                        <li>Social icon 2</li>
-                        <li>Social icon 3</li>
+                        <li><a href="#">social icon 1</a></li>
                     </ul>
                 </div>
             </footer>
